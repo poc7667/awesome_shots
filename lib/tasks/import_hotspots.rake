@@ -9,7 +9,7 @@ namespace :import do
           title: record['title'],
           url: record['url'],
           image: record['image'],
-          location: record['latlon'],
+          location: record['latlon'].collect{|c|c.to_f},
         }
       end
       Hotspot.collection.insert(records)
