@@ -4,9 +4,9 @@ Rails.application.routes.draw do
 
   namespace :api, defaults: {format: 'json'} do
     namespace :v1 do
-      scope :photo do
+      scope :photos do
         # api_v1_photo GET  /api/v1/photo/:lat/:lot/:distance(.:format) api/v1/photo#search {:format=>"json"}
-        get 'search' => 'photo#search'
+        get 'search' => 'photos#search'
       end
     end
   end
