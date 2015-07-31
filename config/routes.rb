@@ -5,9 +5,11 @@ Rails.application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
     namespace :v1 do
       scope :photos do
-        # api_v1_photo GET  /api/v1/photo/:lat/:lot/:distance(.:format) api/v1/photo#search {:format=>"json"}
         get 'search' => 'photos#search'
       end
+      scope :hotspots do
+        get 'search' => 'hotspots#search'
+      end      
     end
   end
 
