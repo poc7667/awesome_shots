@@ -1,5 +1,5 @@
 class Api::V1::PhotosController < ApplicationController
-  RTN_LIMIT = 100
+  RTN_LIMIT = 300
   def search
     photos = Photo.limit(RTN_LIMIT)
               .geo_near([params["lon"].to_f, params["lat"].to_f])
