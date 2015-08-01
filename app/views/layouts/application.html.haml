@@ -1,0 +1,38 @@
+!!!
+%html
+  %head
+    %title AwesomeShots
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "user-scalable=no, initial-scale=1.0, maximum-scale=1.0", :name => "viewport"}/
+    %meta{:content => "yes", :name => "apple-mobile-web-app-capable"}/
+    %meta{:content => "black", :name => "apple-mobile-web-app-status-bar-style"}/
+    %link{:href => "assets/slasher/images/splash/splash-icon.png", :rel => "apple-touch-icon-precomposed", :sizes => "114x114"}/
+    %link{:href => "assets/slasher/images/splash/splash-screen.png", :media => "screen and (max-device-width: 320px)", :rel => "apple-touch-startup-image"}/
+    %link{:href => "assets/slasher/images/splash/splash-screen%402x.png", :media => "(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)", :rel => "apple-touch-startup-image"}/
+    %link{:href => "assets/slasher/images/splash/splash-screen%403x.png", :rel => "apple-touch-startup-image", :sizes => "640x1096"}/
+    %link{:href => "assets/slasher/images/splash/splash-screen-ipad-landscape.html", :media => "screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)", :rel => "apple-touch-startup-image", :sizes => "1024x748"}/
+    %link{:href => "assets/slasher/images/splash/splash-screen-ipad-portrait.png", :media => "screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)", :rel => "apple-touch-startup-image", :sizes => "768x1004"}/
+    %link{:href => "assets/slasher/images/splash/splash-screen-ipad-portrait-retina.png", :media => "(device-width: 768px)\tand (orientation: portrait)\tand (-webkit-device-pixel-ratio: 2)", :rel => "apple-touch-startup-image", :sizes => "1536x2008"}/
+    %link{:href => "assets/slasher/images/splash/splash-screen-ipad-landscape-retina.png", :media => "(device-width: 768px)\tand (orientation: landscape)\tand (-webkit-device-pixel-ratio: 2)", :rel => "apple-touch-startup-image", :sizes => "1496x2048"}/
+    %title Epsilon Mobile Framework - Version 2.0
+    %link{:href => "assets/slasher/styles/style.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "assets/slasher/styles/framework.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "assets/slasher/styles/owl.carousel.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "assets/slasher/styles/owl.theme.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "assets/slasher/styles/swipebox.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "assets/slasher/styles/colorbox.css", :rel => "stylesheet", :type => "text/css"}/
+    %script{:src => "assets/slasher/scripts/jquery.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/jqueryui.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/owl.carousel.min.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/jquery.swipebox.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/colorbox.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/snap.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/contact.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/custom.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/framework.js", :type => "text/javascript"}
+    %script{:src => "assets/slasher/scripts/framework.launcher.js", :type => "text/javascript"}
+  %body
+    = yield

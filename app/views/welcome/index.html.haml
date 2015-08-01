@@ -1,2 +1,36 @@
-%h1 Welcome#index
-%p Find me in app/views/welcome/index.html.haml
+#preloader
+  #status
+    %p.center-text
+      Loading the content...
+      %em Loading depends on your connection speed!
+.homepage-wrapper
+  %img.homepage-logo{:alt => "img", :src => "assets/slasher/images/misc/logo.png"}/
+  %em.homepage-logo-sub Creative Simplicity
+  .homepage-navigation.center
+    %a.facebook-icon{:href => "homepage.html"} Start 
+    %a.type-icon{:href => "type.html"} Type
+    / %a.jquery-icon{:href => "jquery.html"} jQuery
+    / %a.gallery-icon{:href => "tile-gallery.html"} Gallery
+    / %a.folio-icon{:href => "tile-folio.html"} Portfolio
+    / %a.mail-icon{:href => "contact.html"} Contact
+    .clear
+  .footer
+    / %a.facebook-icon{:href => "#"}
+    / %a.google-icon{:href => "#"}
+    / %a.twitter-icon{:href => "#"}
+    .clear
+    %p.homepage-copyright
+      Copyright 2014.
+      = succeed "All" do
+        %br/
+  .webapp-wrapper
+    .webapp
+      %img{:alt => "img", :src => "assets/slasher/images/splash/splash-icon.png"}/
+      %h3 SLASHER
+      %p You’re running iOS. Add this page to your homescreen for an enhanced experience!
+      %em.corner-deco
+      %a.close-webapp{:href => "#"} x
+.homepage-background
+  .bg-pattern
+  .bg-overlay
+  %img#bg{:alt => "img", :src => "assets/slasher/images/bg.png"}/
