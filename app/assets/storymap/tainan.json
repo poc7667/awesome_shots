@@ -1,0 +1,95 @@
+{
+    "storymap": {
+        "slides": [{
+            "type": "overview",
+            "background": {         
+                    "url":              "http://photo.pchome.com.tw/slinwang/129915376716",
+                    "color":                "#cdbfe3",
+                    "opacity":          25
+                },
+            "date": "2015",
+            "text": {
+                "headline": "台南微旅行",
+                "text": "話不多說，走！讓我們到台南去！"
+            },
+            "location": {
+                "name": "Tainan",
+                "lat": 22.997218,
+                "lon": 120.202423,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8D%97%E5%B8%82",
+                    "credit":               "wikipedia",
+                    "caption":          "台南"
+                }
+        }, {
+            "background": {         
+                    "url":              "http://tour.tainan.gov.tw/Upload/Spot/ImgFile/460634329557356831250.jpg",
+                    "color":                "#cdbfe3",
+                    "opacity":          25
+            },
+            "text": {
+                "headline": "國立台灣文學館",
+                "text": "YEAH"
+            },
+            "location": {
+                "name": "國立台灣文學館",
+                "lat": 22.9920289,
+                "lon": 120.2046283,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%96%87%E5%AD%B8%E9%A4%A8",
+                    "credit":               "http://www.nmtl.gov.tw/",
+                    "caption":          "caption"
+                }
+        },{
+            "background": {         
+                    "url":              "https://farm8.staticflickr.com/7634/16220790593_d8955e4164_b.jpg",
+                    "color":                "#cdbfe3",
+                    "opacity":          25
+                },
+            "text": {
+                "headline": "安平樹屋",
+                "text": "這裏是安平樹屋"
+            },
+            "location": {
+                "name": "安平樹屋",
+                "lat": 23.0033697,
+                "lon": 120.1598083,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%B9%B3%E6%A8%B9%E5%B1%8B",
+                    "credit":               "wikipedia",
+                    "caption":          "安平樹屋"
+                }
+        },{
+            "background": {         
+                    "url":              "https://upload.wikimedia.org/wikipedia/commons/d/de/Chihkan_Tower_night.JPG",
+                    "color":                "#cdbfe3",
+                    "opacity":          25
+                },
+            "text": {
+                "headline": "莉莉水果店",
+                "text": "這裏是莉莉水果店"
+            },
+            "location": {
+                "name": "莉莉水果店",
+                "lat": 22.9891277,
+                "lon": 120.2040666,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "http://www.lilyfruit.com.tw/",
+                    "credit":               "web",
+                    "caption":          "莉莉水果店"
+                }
+        }]
+    }
+}
