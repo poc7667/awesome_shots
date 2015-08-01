@@ -3,7 +3,8 @@
         "slides": [{
             "type": "overview",
             "background": {         
-                    "color":                "#A0522D",
+                    "url":              "http://photo.pchome.com.tw/slinwang/129915376716",
+                    "color":                "#cdbfe3",
                     "opacity":          25
                 },
             "date": "2015",
@@ -19,13 +20,14 @@
                 "line": true
             },
             "media": {
-                    "url":              "http://farm4.static.flickr.com/3124/2594863813_f3dc6708f6_o.jpg",
-                    "credit":           "",
+                    "url":              "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8D%97%E5%B8%82",
+                    "credit":               "wikipedia",
                     "caption":          "台南"
                 }
         }, {
             "background": {         
-                    "color":            "#008B8B",
+                    "url":              "http://tour.tainan.gov.tw/Upload/Spot/ImgFile/460634329557356831250.jpg",
+                    "color":                "#cdbfe3",
                     "opacity":          25
             },
             "text": {
@@ -40,9 +42,9 @@
                 "line": true
             },
             "media": {
-                    "url":              "http://tour.tainan.gov.tw/Upload/Spot/ImgFile/460634329557356831250.jpg",
-                    "credit":               "",
-                    "caption":          ""
+                    "url":              "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%96%87%E5%AD%B8%E9%A4%A8",
+                    "credit":               "http://www.nmtl.gov.tw/",
+                    "caption":          "caption"
                 }
         },{
             "background": {         
@@ -62,8 +64,8 @@
                 "line": true
             },
             "media": {
-                    "url":              "https://farm8.staticflickr.com/7634/16220790593_d8955e4164_b.jpg",
-                    "credit":               "",
+                    "url":              "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%B9%B3%E6%A8%B9%E5%B1%8B",
+                    "credit":               "wikipedia",
                     "caption":          "安平樹屋"
                 }
         },{
@@ -84,8 +86,8 @@
                 "line": true
             },
             "media": {
-                    "url":              "https://upload.wikimedia.org/wikipedia/commons/d/de/Chihkan_Tower_night.JPG",
-                    "credit":           "",
+                    "url":              "http://www.lilyfruit.com.tw/",
+                    "credit":               "web",
                     "caption":          "莉莉水果店"
                 }
         }]

@@ -1,0 +1,112 @@
+{
+    "storymap": {
+        "slides": [
+        {
+            "background": {         
+                    "color":                "#A0522D",
+                    "opacity":          25
+                },
+            "date": "2015",
+            "text": {
+                "headline": "南科幾米裝置藝術公園",
+                "text": "<a href=\"http://marshnienie.pixnet.net/blog/post/394735730-%E5%8F%B0%E5%8D%97%E2%94%82%E5%8D%97%E5%8F%B0%E7%81%A3%E4%B9%9F%E6%9C%89%E5%B9%BE%E7%B1%B3%E4%B9%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%88%87%E5%B9%BE%E7%B1%B3%E7%9A%84%E7%9B%B8%E9%81%87\">南科幾米裝置藝術小公園較為迷你，所呈現的是「如果我可以許一個願望」這本繪本，在土裡埋下一個夢想種子，每天許下一個小願望並且認真實現，種子就能購得到賴以維生的養分，長出美麗的愛心樹葉做為我們辛勞澆灌的回報。樹苗象徵茁壯中的願望，綿延於渠道中的愛心樹葉則代表實現的夢想。</a>"
+            },
+            "location": {
+                "name": "Tainan",
+                "lat": 23.1082652,
+                "lon": 120.2694814,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "http://pic.pimg.tw/hialbert/1413348269-71955883.jpg",
+                    "credit":           "",
+                    "caption":          ""
+                }
+        }, {
+            "background": {         
+                    "color":            "#A0522D",
+                    "opacity":          25
+            },
+            "text": {
+                "headline": "關子嶺水火同源",
+                "text": "<a href=\"http://kolong.pixnet.net/blog/post/26257221-台南關子嶺-水火同源\">水火同源，又名水火洞、水火河，是一處水與火共存的自然景色，位於台灣台南市白河關子嶺風景區，枕頭山麓西南側，六重溪斷層附近上脊斜軸部上的石壁。壁上冒出的天然氣可使點燃的火焰不熄滅，同時又有泉水從崖壁細縫中潺潺流出，火噴其間，無煙亦無燄，形成水中有火，火中有水的特別景觀。<a>"
+            },
+            "location": {
+                "name": "關子嶺水火同源",
+                "lat": 23.3219249,
+                "lon": 120.4840458,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "http://i1013.photobucket.com/albums/af258/kolong6655/20100101/IMG_3024.jpg",
+                    "credit":           "",
+                    "caption":          ""
+                }
+        },{
+            "background": {
+                    "color":                "#A0522D",
+                    "opacity":          25
+                },
+            "text": {
+                "headline": "新化老街",
+                "text": "<a href=\"http://mimg47.pixnet.net/blog/post/4521573-【台南．小吃】新化燒餅、新化老攤雞蛋糕：\">新化區在日治時期曾為極風光之市街，當年新化地區與府城台南往來頻繁，造就出蓬勃的商業買賣，中山路、中正路一帶，由於地處交通要道，人潮來往，興建了大批洋樓、街屋，形成繁榮的商店街，交易極為熱絡。走上今日的新化老街，從保留下的老洋樓，仿巴洛克式的立面建築，講究的花紋與雕飾，不經意的發現這邊的商家多為幾十年歷史的老商號，與老街上現代便利商店7-11比較起來，光線雖不明亮，貨品排列也隨性，但走進每家商號，卻令人回想起小時候穿梭在雜貨店中，店家吆喝買賣的情景，彷彿當年的榮景在歲月痕跡中再度顯現。曾經的繁華商街，現在的新化老街，散步其間，不禁喟然！ </a>"
+            },
+            "location": {
+                "name": "新化老街",
+                "lat": 23.0354576,
+                "lon": 120.3081207,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "http://pic.pimg.tw/mimg47/1391679904-2776265092.jpg",
+                    "credit":           "",
+                    "caption":          "新化老街"
+                }
+        },{
+            "background": {
+                    "color":                "#A0522D",
+                    "opacity":          25
+                },
+            "text": {
+                "headline": "秀里蚵嗲",
+                "text": "<a href=\"http://cuteboge100.pixnet.net/blog/post/395578016-【台南將軍。美食】在地人才知道的超隱密巷\">秀里蚵嗲開店約四十年，位於在台南將軍的巷弄中。很難想像青山漁港旁，一群民宅當中，有這樣的一間老店，蚵嗲和花枝嗲，外表炸得金黃酥脆，讓人食指大動。<a>"
+            },
+            "location": {
+                "name": "秀里蚵嗲",
+                "lat": 23.189109,
+                "lon": 120.086637,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "http://pic.pimg.tw/cuteboge100/1414063913-1085930111_n.jpg",
+                    "credit":           "",
+                    "caption":          "秀里蚵嗲"
+                }
+        },{
+            "background": {
+                    "color":                "#A0522D",
+                    "opacity":          25
+                },
+            "text": {
+                "headline": "脆皮甕仔雞",
+                "text": "<a href=\"http://lydia0207.pixnet.net/blog/post/39346797-【食記】台南白河。阿派的店~來關仔嶺吃脆\">阿派的店評價不錯又便宜菜色選項又多!重點是它可是號稱唯一脆皮的甕缸雞喔!衝著他是脆皮的甕缸雞!就決定吃這家囉!<a>"
+            },
+            "location": {
+                "name": "脆皮甕仔雞",
+                "lat": 23.354266,
+                "lon": 120.4876036,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url":              "http://farm3.staticflickr.com/2822/9834241805_42c639058a_o.jpg",
+                    "credit":           "",
+                    "caption":          "脆皮甕仔雞"
+                }
+        }]
+    }
+}

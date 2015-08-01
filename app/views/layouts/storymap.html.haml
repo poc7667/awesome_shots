@@ -1,33 +1,59 @@
 !!!
-%html{:lang => "en"}
+%html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title Choose your story
-    %meta{:charset => "utf-8"}/
     %meta{:content => "TimelineJS Embed", :name => "description"}/
     %meta{:content => "yes", :name => "apple-mobile-web-app-capable"}/
     %meta{:content => "yes", :name => "apple-touch-fullscreen"}/
     %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0", :name => "viewport"}/
     / CSS
+    %link{:href => "/assets/storymap/css/InfoWindow.css", :rel => "stylesheet"}/
     %link{:href => "/assets/storymap/css/storymap.css?v1", :rel => "stylesheet"}/
     / Style
     :css
-      html, body {
-      height:100%;
-      width:100%;
-      padding: 0px;
-      margin: 0px;
+      html,
+      body {
+          height: 100%;
+          width: 100%;
+          padding: 0px;
+          margin: 0px;
       }
-    / HTML5 shim, for IE6-8 support of HTML elements
-    /[if lt IE 9]
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  %body
-    #storymap
-    / JavaScript
+    %script{:src => "http://code.jquery.com/jquery-1.11.3.min.js", :type => "text/javascript"}
+    %script{:src => "https://fb.me/react-0.13.3.js"}
+    %script{:src => "https://fb.me/react-with-addons-0.13.3.js"}
+    %script{:src => "//code.jquery.com/ui/1.11.4/jquery-ui.js"}
+    %script{:src => "/assets/storymap/js/InfoWindow.js"}
     %script{:src => "/assets/storymap/js/storymap.js"}
-    / %script{:src => "storymap/js/storymap.js"}
     :javascript
-      var storymap = new VCO.StoryMap('storymap', '/tainan.json');
-      window.onresize = function(event) {
-       storymap.updateDisplay();
+      var dataStore;
+      function clickSend() {
+          $.ajax({
+              url: '/add_routes',
+              contentType: 'application/json',
+              data: JSON.stringify(dataStore),
+              type: 'POST',
+              dataType: 'json',
+              success: function() {
+                  console.log("OK");
+                  callStoryMap();
+              }
+          });
       }
+      function callStoryMap() {
+          $("#InfoWindow").hide();
+          var storymap = new VCO.StoryMap('StoryMap', "/data/#{escape_javascript @file}", {
+              map_type: "osm:standard",
+              use_custom_markers: true
+          });
+          window.onresize = function(event) {
+              storymap.updateDisplay();
+          };
+      }
+  %body
+    #InfoWindow
+      #InfoWindowContainer
+      #clickSend{:onclick => "clickSend()"} 
+    #StoryMap
+    %script
+      $.getJSON("/data/#{escape_javascript @file}",function(data){ dataStore=data; React.render(
+      React.createElement(InfoWindowContainer, {InputStore: data}), document.getElementById("InfoWindowContainer")); });

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   get 'welcome/setting'
   get 'welcome/show'
+  post 'add_routes' => 'welcome#add_routes'
 
   namespace :api, defaults: {format: 'json'} do
     namespace :v1 do

@@ -1,0 +1,33 @@
+.item-container{
+	display: inline-block;
+}
+
+.item-content-box{
+    width: 200px;
+    border: solid 1px;
+    height: 200px;
+    background-size: 100% 100%;		
+    position: relative;
+    margin: 7px;
+    -moz-box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+-webkit-box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+}
+
+.item-headline{
+	text-align: center;
+    color: #FFF;
+    background-color: rgba(50,50,50,0.8);
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    font-size: 15px;
+}
+
+#clickSend{
+    background: url("/image/bt.jpg");
+    width: 51px;
+    height: 26px;
+}
