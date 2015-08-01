@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-  devise_for :users
+  devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
+
   get 'welcome/index'
 
   namespace :api, defaults: {format: 'json'} do
@@ -10,7 +11,7 @@ Rails.application.routes.draw do
       end
       scope :hotspots do
         get 'search' => 'hotspots#search'
-      end      
+      end
     end
   end
 
