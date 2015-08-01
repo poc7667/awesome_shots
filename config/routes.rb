@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   get 'welcome/index'
 
   namespace :api, defaults: {format: 'json'} do
