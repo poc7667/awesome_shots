@@ -52,7 +52,7 @@
   %body
     #InfoWindow
       #InfoWindowContainer
-      #clickSend{:onclick => "clickSend()"} 
+      #clickSend{:onclick => "clickSend()"}
     #StoryMap
     %script
       $.getJSON("/data/#{escape_javascript @file}",function(data){ dataStore=data; React.render(

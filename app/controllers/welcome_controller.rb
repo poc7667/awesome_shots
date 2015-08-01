@@ -3,6 +3,7 @@ class WelcomeController < ApplicationController
   layout :_layout_by_resource
   def index
   end
+
   def setting
     
   end
