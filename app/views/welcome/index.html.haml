@@ -6,30 +6,18 @@
 .homepage-wrapper
   %img.homepage-logo{:alt => "img", :src => "assets/slasher/images/misc/logo.png"}/
   %em.homepage-logo-sub Creative Simplicity
-  .homepage-navigation.center
-    %a.facebook-icon{:href => "homepage.html"} Start 
-    %a.type-icon{:href => "type.html"} Type
-    / %a.jquery-icon{:href => "jquery.html"} jQuery
-    / %a.gallery-icon{:href => "tile-gallery.html"} Gallery
-    / %a.folio-icon{:href => "tile-folio.html"} Portfolio
-    / %a.mail-icon{:href => "contact.html"} Contact
+  .homepage-navigation
+    - if current_user.blank?
+      %a.facebook-icon{:href =>  '/users/auth/facebook'} Login
+    - else
+      %a.type-icon{:href => welcome_show_path } Start Journey
     .clear
   .footer
-    / %a.facebook-icon{:href => "#"}
-    / %a.google-icon{:href => "#"}
-    / %a.twitter-icon{:href => "#"}
     .clear
     %p.homepage-copyright
-      Copyright 2014.
-      = succeed "All" do
+      Copyright 2015.
+      = succeed "Awesome Journey" do
         %br/
-  .webapp-wrapper
-    .webapp
-      %img{:alt => "img", :src => "assets/slasher/images/splash/splash-icon.png"}/
-      %h3 SLASHER
-      %p You’re running iOS. Add this page to your homescreen for an enhanced experience!
-      %em.corner-deco
-      %a.close-webapp{:href => "#"} x
 .homepage-background
   .bg-pattern
   .bg-overlay

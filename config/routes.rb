@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
 
   get 'welcome/index'
+  get 'welcome/setting'
+  get 'welcome/show'
 
   namespace :api, defaults: {format: 'json'} do
     namespace :v1 do
