@@ -41,7 +41,7 @@
       }
       function callStoryMap() {
           $("#InfoWindow").hide();
-          var storymap = new VCO.StoryMap('StoryMap', "/data/#{escape_javascript @file}", {
+          var storymap = new VCO.StoryMap('StoryMap', dataStore, {
               map_type: "osm:standard",
               use_custom_markers: true
           });
