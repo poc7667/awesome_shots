@@ -75,6 +75,7 @@ gem 'puma'
 gem 'whenever', require: false
 gem 'dotenv-rails'
 gem 'rails-erd'
+gem 'devise', '3.5.1'
 gem 'omniauth', '1.2.2'
 gem 'omniauth-oauth2', '1.0.3'
 gem 'omniauth-facebook', '1.4.0'
