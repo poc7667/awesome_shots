@@ -5,14 +5,10 @@ class WelcomeController < ApplicationController
   end
 
   def setting
-    
   end
+  
   def show
-    if current_user.email.include? 'poc'
-      @file = "route_1.json"
-    else
-      @file = "route_2.json"
-    end
+    @file = "route_1.json"
   end
 
   def add_routes
