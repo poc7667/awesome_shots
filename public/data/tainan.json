@@ -45,8 +45,7 @@
                     "caption":          ""
                 }
         },{
-            "background": {         
-                    "url":              "https://farm8.staticflickr.com/7634/16220790593_d8955e4164_b.jpg",
+            "background": {
                     "color":                "#cdbfe3",
                     "opacity":          25
                 },
@@ -67,8 +66,7 @@
                     "caption":          "安平樹屋"
                 }
         },{
-            "background": {         
-                    "url":              "https://upload.wikimedia.org/wikipedia/commons/d/de/Chihkan_Tower_night.JPG",
+            "background": {
                     "color":                "#cdbfe3",
                     "opacity":          25
                 },

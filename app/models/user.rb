@@ -24,6 +24,7 @@ class User
   field :last_sign_in_ip,    type: String
   field :provider,    type: String
   field :uid,    type: String
+  field :routes,    type: Array
 
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
